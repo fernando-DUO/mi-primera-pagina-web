@@ -1,0 +1,43 @@
+body{
+    background-color:  cadetblue;
+}
+
+/* Encabezado con los enlaces a las distintas partes */
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+main{
+    background-color: chocolate;
+}
+
+footer{
+    background-color: darkkhaki;
+}
+
+p{
+    font-size: 20px;
+}
+
+.encabezado{
+    background-color: blue;
+}
+
+
+/*
+A partir de aquí van los @media queries
+----------------------------------------------------------------
+*/
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    header {
+        background-color: maroon;
+    }
+
+    main>p {
+        font-size: 12px;
+    }
+  }
